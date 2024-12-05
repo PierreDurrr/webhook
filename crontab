@@ -1,0 +1,7 @@
+
+@reboot echo "───────────────────────────────────────" > /proc/1/fd/1 2>&1
+@reboot date | echo "Starting, let's go !" > /proc/1/fd/1 2>&1
+@reboot echo "───────────────────────────────────────" > /proc/1/fd/1 2>&1
+#* * * * * date > /proc/1/fd/1
+#
+#EDIT THIS IF NEEDED
